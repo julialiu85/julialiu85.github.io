@@ -1,0 +1,11 @@
+.home_title {
+    color: black;
+    font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+    animation: slidein 1s;
+}
+
+@keyframes slidein {
+	from {transform: translateY(250px);}
+	to {transform: translateY(0px);}
+}
+
